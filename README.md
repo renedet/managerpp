@@ -56,12 +56,12 @@ jQuery JavaScript Library v1.4.4
 
 ### Diretório compartilhado em rede NFS:
     mkdir p /home/user/nfs
-    sudo chown nobody:nogroup /home/user/nfs
-    sudo nano /etc/exports
-    /tmp/nfs *(rw,no_subtree_check,async)
-    /tmp/nfs *(rw,sync,fsid=0)
-    sudo exportfs a
-    sudo /etc/init.d/nfskernelserver restart
+    sudo su (Ubuntu) ou su (Debian)
+    chown nobody:nogroup /home/user/nfs
+    nano /etc/exports
+      /home/user/nfs *(rw,no_subtree_check,async)
+    exportfs -a
+    /etc/init.d/nfs-kernel-server restart
 
 ### Instanciar Mestre:
     cd /home/user/nfs
