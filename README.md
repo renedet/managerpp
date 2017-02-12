@@ -4,20 +4,14 @@
 O projeto deste software surgiu pela necessidade de melhorar o tempo de 
 processamento de um algoritmo, desenvolvido em Matlab, que tinha muitas 
 iterações. Com esta ideia foi desenvolvido este sistema distribuído e
-pré-configurado visando reduzir o tempo de implantação e processamento 
-de dados.
-
-
-##[Tempo de implantação](#tempo-implantacao)
-----------------------
-Se pré-instalado com distribuição linux (grml) com boot para memória RAM
+pré-configurado visando reduzir o [`tempo de implantação`](https://github.com/renedet/managerpp#tempo-de-implantação) e processamento de dados.
 
 ## Arquitetura
-----------------------
+
 [`Mestre Escravo`](http://charm.cs.uiuc.edu/research/masterSlave)
 
 ## Trabalhos Relacionados
-----------------------
+
 
 ### API - Application Programming Interface
 [`Open MPI`](https://www.open-mpi.org/)
@@ -28,14 +22,13 @@ Se pré-instalado com distribuição linux (grml) com boot para memória RAM
 [`OpenPBS`](http://www.mcs.anl.gov/research/projects/openpbs/) - Nasa
 
 ## Dependências
----------------
 
 Python 2.7 (obrigatório)
 NFS (opcional)
 grml (opcional)
 
 ## Outro software incluso [será alterado Ext JS]
--------------------------
+
 Ext JS Library 3.4.0
   Ext JS is licensed under the terms of the Open Source GPL 3.0 license. 
 
@@ -44,7 +37,7 @@ jQuery JavaScript Library v1.4.4
   http://jquery.org/license
 
 ## Requisitos de hardware
--------------------------
+
 -Mínimo de uso de memória RAM 512MB
 -Interface de rede
 -Processador com 2 núcleos ou mais
@@ -53,7 +46,7 @@ jQuery JavaScript Library v1.4.4
 -1 Pendrive 2GB
 
 ## Configurando nó Mestre
--------------------------
+
 ### Diretório compartilhado em rede NFS:
     mkdir p /home/user/nfs
     sudo chown nobody:nogroup /home/user/nfs
@@ -76,3 +69,8 @@ jQuery JavaScript Library v1.4.4
     cd /home/user/nfs
     managerpp 172.16.4.111 8080 client
     http://172.16.4.111:8081/managerpp/escravo/index.xhtml
+
+
+## Tempo de implantação
+
+Se pré-instalado com distribuição linux (grml) com boot para memória RAM.
