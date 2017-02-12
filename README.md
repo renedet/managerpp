@@ -14,6 +14,7 @@ Debian jessie [managerpp](https://github.com/renedet/managerpp/blob/master/debia
 ## Arquitetura
 
 [`Mestre Escravo`](http://charm.cs.uiuc.edu/research/masterSlave)
+[`Diagrama Mestre Escravo do managerpp`](https://raw.githubusercontent.com/renedet/managerpp/master/imagens/mestre_escravo.png)
 
 ## Trabalhos Relacionados
 
