@@ -1,0 +1,50 @@
+#!/bin/bash
+
+# Verificar se parametros foram passados corretamente
+# echo $0 $1 $2 $3
+
+ip="127.0.0.1"
+porta="8080"
+op=""
+
+if [ -n "$1" ] && [ -n "$2" ]
+	then
+		ip=$1
+		porta=$2
+	else
+		echo "Coloque os seguintes parametros:"
+		echo "1o: IP da interface ethX que deseja usar"
+		echo "2o: numero da porta"
+		echo "3o: 'server' ou 'client', veja documentação"
+		echo ""
+		echo "Exemplo:"
+		echo "managerpp 192.168.1.254 8080 server"
+		echo "managerpp 192.168.1.5 8080 client"
+		echo ""
+fi
+
+if [ -n "$3" ]
+	then
+		if [ "client" == "$3" ]
+			then
+				op="escravo"
+		elif [ "server" == "$3" ]
+			then
+				op="mestre"
+		else
+			echo "O 3o parametro precisa ser: client ou server"
+		fi
+else
+	echo "O 3o parametro precisa ser: client ou server"
+fi
+
+# Falta melhorar esse teste dessas variaveis
+if [ -n "$ip" ] && [ -n "$porta" ] && [ -n "$op" ]
+	then
+	# Criar links na pasta que está sendo executado
+	ln -s /usr/lib/managerpp/ ./managerpp
+
+	# Executar comando solicitado conforme op
+	#echo "./managerpp/no_$op.py $ip $porta"
+	./managerpp/no_"$op".py "$ip" "$porta"
+fi

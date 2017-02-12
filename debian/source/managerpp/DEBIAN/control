@@ -1,0 +1,13 @@
+Package: managerpp
+Priority: optional
+Version: 0.83.0713
+Architecture: all
+Maintainer: Rene Dettenborn <renedet@gmail.com>
+Section: misc
+Installed-Size: 12185
+Homepage: http://renedet.blogspot.com
+Depends: python2.7, nfs-kernel-server, portmap, nfs-common, bash
+Description: ManagerPP
+ Aplicativo cliente servidor para gerenciamento de processamento paralelo distribuido
+ .
+ Pacote DEB criado por renedet@gmail.com

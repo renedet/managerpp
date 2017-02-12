@@ -1,0 +1,29 @@
+/*#borda{
+    padding: 10px 10px 10px 10px;
+}*/
+
+/*.x-tab-panel-body .x-panel-body {
+    padding:10px;
+}*/
+
+body {
+  background-color: #FFFFFF !important;
+  font-family: helvetica,tahoma,verdana,sans-serif;
+  font-size: 13px;
+  padding: 20px 0px 0px 20px;
+}
+/*
+#aba1{
+    padding: 10px 10px 10px 10px;
+}*/
+
+.add {background-image: url(drop-add.gif) !important;}
+.del {background-image: url(delete.png) !important;}
+
+.highlight {
+    background-color: #FBE54E;
+    border: 1px solid #FF6666;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 7px;
+}

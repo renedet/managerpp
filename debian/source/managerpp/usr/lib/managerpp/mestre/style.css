@@ -1,0 +1,89 @@
+/*#borda{
+    padding: 10px 10px 10px 10px;
+}*/
+
+/*.x-tab-panel-body .x-panel-body {
+    padding:10px;
+}*/
+
+body {
+  background-color: #FFFFFF !important;
+  font-family: helvetica,tahoma,verdana,sans-serif;
+  font-size: 13px;
+  padding: 20px 0px 0px 20px;
+}
+/*
+#aba1{
+    padding: 10px 10px 10px 10px;
+}*/
+
+.add {background-image: url(drop-add.gif) !important;}
+.del {background-image: url(delete.png) !important;}
+
+.highlight {
+    background-color: #FBE54E;
+    border: 1px solid #FF6666;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 7px;
+}
+
+body {
+    background: #FFFFFF;
+    background-image: url(FluxoMestre_blanc.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+#init_status {
+    position:fixed;
+    top:40px;
+    left:116px;
+    color:red;
+}
+
+#analisa_resultado {
+    font-size:10px;
+    position:fixed;
+    top:40px;
+    left:340px;
+    color:red;
+}
+
+#exec_proc_dados {
+    font-size:10px;
+    position:fixed;
+    top:305px;
+    left:340px;
+    color:red;
+}
+
+#exec_proc_dados_base {
+    font-size:10px;
+    position:fixed;
+    top:340px;
+    left:340px;
+    color:red;
+}
+
+#esc_melhor_resp {
+    font-size:10px;
+    position:fixed;
+    top:470px;
+    left:320px;
+    color:red;
+}
+
+#num_total_pro {
+    font-size:10px;
+    position:fixed;
+    top:305px;
+    left:515px;
+    color:red;
+}
+
+#status_server {
+    font-size:10px;
+    padding: 5px;
+}
