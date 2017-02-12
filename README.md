@@ -13,8 +13,10 @@ Debian jessie [managerpp](https://github.com/renedet/managerpp/blob/master/debia
 
 ## Arquitetura
 
-[`Mestre Escravo`](http://charm.cs.uiuc.edu/research/masterSlave)
-[`Diagrama Mestre Escravo do managerpp`](https://raw.githubusercontent.com/renedet/managerpp/master/imagens/mestre_escravo.png)
+Na arquitetura [`Mestre Escravo`](http://charm.cs.uiuc.edu/research/masterSlave)
+o Mestre gerencia as atividades que serão executadas, e distribui os 
+processos para os escravos executarem o processamento das atividades.
+![`Diagrama Mestre Escravo do managerpp`](https://raw.githubusercontent.com/renedet/managerpp/master/imagens/mestre_escravo.png)
 
 ## Trabalhos Relacionados
 
