@@ -6,12 +6,14 @@ processamento de um algoritmo, desenvolvido em Matlab, que tinha muitas
 iterações. Com esta ideia foi desenvolvido este sistema distribuído e
 pré-configurado visando reduzir o [`tempo de implantação`](https://github.com/renedet/managerpp#tempo-de-implantação) e processamento de dados.
 
+## Download
+Debian jessie [managerpp](https://github.com/renedet/managerpp/blob/master/debian/bin/jessie/managerpp_0.83.0713.deb)
+
 ## Arquitetura
 
 [`Mestre Escravo`](http://charm.cs.uiuc.edu/research/masterSlave)
 
 ## Trabalhos Relacionados
-
 
 ### API - Application Programming Interface
 [`Open MPI`](https://www.open-mpi.org/)
