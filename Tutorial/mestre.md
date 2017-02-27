@@ -24,7 +24,16 @@ E por ultimo na caixa **Compila resultados** é feito uma verificação para ver
 ![Interface Gráfica do Mestre - FASE 1](https://raw.githubusercontent.com/renedet/managerpp/master/Tutorial/imagens/img7.png)
 
 6. Na caixa **Compila resultados**, FASE 3, é definido o script que analisa se tudo foi executado corretamente, este script tem uma analise básica, mas pode ser configurado para adicinar outras verificações.
- ![Interface Gráfica do Mestre - FASE 1](https://raw.githubusercontent.com/renedet/managerpp/master/Tutorial/imagens/img5.png)
+![Interface Gráfica do Mestre - FASE 1](https://raw.githubusercontent.com/renedet/managerpp/master/Tutorial/imagens/img5.png)
 
 ## Pausa para configurar nós Escravos
 Veja a configuração do nó Escravo e retorne para continuar o gerenciamento do nó mestre.
+
+7. Depois de comunicar os nós escravos com o mestre, na tela de configuração do mestre clique no botão **Verificar**, caixa **Verifica Status**. Esta opção mostra quantos nós escravos estão disponíveis para o mestre.
+Observe que quando temos pelo menos um nó escravo conectado a opção **Iniciar Processamento** ficará disponível na caixa **Verifica Status**.
+![Interface Gráfica do Mestre - FASE 1](https://raw.githubusercontent.com/renedet/managerpp/master/Tutorial/imagens/img12.png)
+![Interface Gráfica do Mestre - FASE 1](https://raw.githubusercontent.com/renedet/managerpp/master/Tutorial/imagens/img13.png)
+
+8. Clicar em **Iniciar Processamento** fará com que o mestre encaminhe os processos para os nós escravos disponíveis. A mensagem **Servidor Processando...** irá aparecer.
+O botão **Verificar andamento** também estará disponível para acompanhar o andamento dos processos.
+![Interface Gráfica do Mestre - FASE 1](https://raw.githubusercontent.com/renedet/managerpp/master/Tutorial/imagens/img14.png)

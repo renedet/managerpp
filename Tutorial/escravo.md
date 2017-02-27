@@ -13,4 +13,4 @@ O **IP do Servidor** pode ser verificada na [interface gráfica do mestre](https
 3. O aviso abaixo será informado caso tudo ocorra corretamente.
 ![Interface Gráfica do Escravo](https://raw.githubusercontent.com/renedet/managerpp/master/Tutorial/imagens/img11.png)
 
-Quando terminar de configurar todos os nós escravos retorne para interface do nó mestre para iniciar o processamento dos dados.
+Quando terminar de configurar todos os nós escravos retorne para [interface do nó mestre](https://github.com/renedet/managerpp/blob/master/Tutorial/mestre.md#pausa-para-configurar-nós-escravos) para iniciar o processamento dos dados.
