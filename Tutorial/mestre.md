@@ -27,7 +27,7 @@ E por ultimo na caixa **Compila resultados** é feito uma verificação para ver
 ![Interface Gráfica do Mestre - FASE 1](https://raw.githubusercontent.com/renedet/managerpp/master/Tutorial/imagens/img5.png)
 
 ## Pausa para configurar nós Escravos
-Veja a configuração do nó Escravo e retorne para continuar o gerenciamento do nó mestre.
+Veja a [configuração do nó Escravo](https://github.com/renedet/managerpp/blob/master/Tutorial/escravo.md) e retorne para continuar o gerenciamento do nó mestre.
 
 7. Depois de comunicar os nós escravos com o mestre, na tela de configuração do mestre clique no botão **Verificar**, caixa **Verifica Status**. Esta opção mostra quantos nós escravos estão disponíveis para o mestre.
 Observe que quando temos pelo menos um nó escravo conectado a opção **Iniciar Processamento** ficará disponível na caixa **Verifica Status**.
