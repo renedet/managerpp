@@ -1,6 +1,6 @@
 ## Gerenciar Mestre (interface gráfica)
 
-1. Ao acessar o endereço http://20.12.2.101:8080/managerpp/mestre/index.xhtml gerado na instancia do nó mestre, por linha de comando, temos a tela inicial abaixo:
+1. Ao acessar o endereço `http://20.12.2.101:8080/managerpp/mestre/index.xhtml` gerado na [instância do nó mestre](https://github.com/renedet/managerpp/tree/master/Tutorial#instanciar-mestre), por linha de comando, temos a tela inicial abaixo:
 ![Interface Gráfica do Mestre - compartilhamento NFS](https://raw.githubusercontent.com/renedet/managerpp/master/Tutorial/imagens/img1.png)
 No campo Pasta NFS, deve ser informado o diretorio onde foi montado o compartilhamento NFS.
 **Obs:** Caso não necessite usar o compartilhamento NFS, coloque o caminho do diretório onde o mestre foi instanciado.
@@ -11,7 +11,7 @@ No campo Pasta NFS, deve ser informado o diretorio onde foi montado o compartilh
 3. Na próxima tela temos uma visão geral do fluxo de funcionamento do mestre com as seguintes caixas:
 Para **Verifica Status** temos o endereço que deve ser informado para o escravo.
 Em **Analisa resultado** temos a seleção do script que será executado na FASE 1, veja o item 4.
-Na parte central da execução em paralelo, caixa **Executa Processamento dos Dados**, temos um campo para configurar o processo principal e os parametros adicionais da chamada, mais no item 5.
+Na parte central da execução em paralelo, caixa **Executa Processamento dos Dados**, temos um campo para configurar o processo principal e os parâmetros adicionais da chamada, mais no item 5.
 E por ultimo na caixa **Compila resultados** é feito uma verificação para ver se tudo foi executado corretamente, verifique item 6 para mais detalhes.
 ![Interface Gráfica do Mestre - Servidor sem nós](https://raw.githubusercontent.com/renedet/managerpp/master/Tutorial/imagens/img3.png)
 
@@ -20,8 +20,11 @@ E por ultimo na caixa **Compila resultados** é feito uma verificação para ver
 
 5. Na caixa **Executa Processamento dos Dados**, FASE 2, temos um campo para configurar o processo principal, este processo pode ser um executável ou script por linha de comando.
 ![Interface Gráfica do Mestre - FASE 1](https://raw.githubusercontent.com/renedet/managerpp/master/Tutorial/imagens/img6.png)
-**Obs:** Parametros adicionais da chamada podem ser configurados clicando no botão **Definir parâmetros**.
+**Obs:** Parâmetros adicionais da chamada podem ser configurados clicando no botão **Definir parâmetros**.
 ![Interface Gráfica do Mestre - FASE 1](https://raw.githubusercontent.com/renedet/managerpp/master/Tutorial/imagens/img7.png)
 
 6. Na caixa **Compila resultados**, FASE 3, é definido o script que analisa se tudo foi executado corretamente, este script tem uma analise básica, mas pode ser configurado para adicinar outras verificações.
  ![Interface Gráfica do Mestre - FASE 1](https://raw.githubusercontent.com/renedet/managerpp/master/Tutorial/imagens/img5.png)
+
+## Pausa para configurar nós Escravos
+Veja a configuração do nó Escravo e retorne para continuar o gerenciamento do nó mestre.
