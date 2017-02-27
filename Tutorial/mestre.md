@@ -3,7 +3,7 @@
 1. Ao acessar o endereço http://20.12.2.101:8080/managerpp/mestre/index.xhtml gerado na instancia do nó mestre, por linha de comando, temos a tela inicial abaixo:
 ![Interface Gráfica do Mestre - compartilhamento NFS](https://raw.githubusercontent.com/renedet/managerpp/master/Tutorial/imagens/img1.png)
 No campo Pasta NFS, deve ser informado o diretorio onde foi montado o compartilhamento NFS.
-Obs: Caso não necessite usar o compartilhamento NFS, coloque o caminho do diretório onde o mestre foi instanciado.
+**Obs:** Caso não necessite usar o compartilhamento NFS, coloque o caminho do diretório onde o mestre foi instanciado.
 
 2. Ao definir o diretório NFS a tela abaixo será exibida mostrando a imagem **Servidor sem nós!** indicando que o mestre não tem escravos.
 ![Interface Gráfica do Mestre - Servidor sem nós](https://raw.githubusercontent.com/renedet/managerpp/master/Tutorial/imagens/img2.png)
@@ -20,7 +20,7 @@ E por ultimo na caixa **Compila resultados** é feito uma verificação para ver
 
 5. Na caixa **Executa Processamento dos Dados**, FASE 2, temos um campo para configurar o processo principal, este processo pode ser um executável ou script por linha de comando.
 ![Interface Gráfica do Mestre - FASE 1](https://raw.githubusercontent.com/renedet/managerpp/master/Tutorial/imagens/img6.png)
-Os parametros adicionais da chamada podem ser configurados clicando no botão **Definir parâmetros**.
+**Obs:** Parametros adicionais da chamada podem ser configurados clicando no botão **Definir parâmetros**.
 ![Interface Gráfica do Mestre - FASE 1](https://raw.githubusercontent.com/renedet/managerpp/master/Tutorial/imagens/img7.png)
 
 6. Na caixa **Compila resultados**, FASE 3, é definido o script que analisa se tudo foi executado corretamente, este script tem uma analise básica, mas pode ser configurado para adicinar outras verificações.
