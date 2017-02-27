@@ -52,32 +52,13 @@ jQuery JavaScript Library v1.4.4
 * Placa-mãe com inicialização da BIOS pela interface USB
 * 1 Pendrive 2GB
 
-## Configurando nó Mestre
+## Tutorial de Configuração
 
-### Diretório compartilhado em rede NFS:
-    mkdir p /home/user/nfs
-    sudo su (Ubuntu) ou su (Debian)
-    chown nobody:nogroup /home/user/nfs
-    nano /etc/exports
-      /home/user/nfs *(rw,no_subtree_check,async)
-    exportfs -a
-    /etc/init.d/nfs-kernel-server restart
+### [Mestre](https://github.com/renedet/managerpp/tree/master/Tutorial#configurando-nó-mestre)
 
-### Instanciar Mestre:
-    cd /home/user/nfs
-    managerpp 172.16.6.99 8080 server
-    http://172.16.6.99:8080/managerpp/mestre/index.xhtml
-
-## Configurando nó Escravo
-### Diretório compartilhado em rede NFS:
-    mkdir p /home/user/nfs
-    sudo mount 172.16.6.99:/home/user/nfs /home/user/nfs
-## Instanciar Escravo:
-    cd /home/user/nfs
-    managerpp 172.16.4.111 8080 client
-    http://172.16.4.111:8081/managerpp/escravo/index.xhtml
+### [Escravo](https://github.com/renedet/managerpp/tree/master/Tutorial#configurando-nó-escravo)
 
 
 ## Tempo de implantação
 
-Se pré-instalado com distribuição [Grml](https://grml.org/) com boot para memória RAM.
+Se pré-instalado com distribuição [Grml](https://grml.org/) com boot para memória RAM, 5 minutos por nó.
